@@ -24,7 +24,7 @@ export default function Home() {
         onInput={handleInput}
         placeholder="Search..." />
         <div className='relative w-1/2'>
-          <ul className="absolute w-full bg-white border border-gray-300 rounded-lg shadow-lg z-10">
+          <ul className="absolute w-full bg-white rounded-lg shadow-lg z-10">
             {options.map((opt, index) => (
               <li key={index}
                 className="text-gray-800 px-4 py-2 hover:bg-gray-100 cursor-pointer">{opt}</li>
